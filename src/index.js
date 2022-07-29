@@ -1,3 +1,4 @@
+// slider ⬇⬇⬇
 const splide = new Splide('.splide', {
   type: 'loop',
   perPage: 1,
@@ -5,21 +6,7 @@ const splide = new Splide('.splide', {
   drag: true,
   speed: 250,
 }).mount();
-
-// (() => {
-//   const refs = {
-//     openModalBtn: document.querySelector('[data-modal-open]'),
-//     closeModalBtn: document.querySelector('[data-modal-close]'),
-//     modal: document.querySelector('[data-modal]'),
-//   };
-
-//   refs.openModalBtn.addEventListener('click', toggleModal);
-//   refs.closeModalBtn.addEventListener('click', toggleModal);
-
-//   function toggleModal() {
-//     refs.modal.classList.toggle('open');
-//   }
-// })();
+// slider ⬆⬆⬆
 
 (() => {
   const refs = {
